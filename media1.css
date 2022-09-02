@@ -1,0 +1,442 @@
+@media(max-width: 1440px) {
+{
+    .container:90%}
+}
+@media(max-width: 1200px)  {
+    #header .header--general .header--general__block .block .head2 .hed a {
+        font-size: 12px;
+    }
+    #header .header--general .header--general__block .block .head a {
+        margin: 25px 10px;
+    }
+    #header .header--general .header--general__block .head3 .hero h1 {
+        margin: 5px 10px;
+        font-size: 18px;
+    }
+
+}
+@media(max-width: 1024px)  {
+    #hero .hero--general .hero--general__block .don-menu .menu .menu1 {
+        margin-left: -50px;
+    }
+    #hero .hero--general .hero--general__block .menu2 {
+        margin-left: -50px;
+    }
+    #header .header--general .header--general__block .block .head a {
+        margin: 20px 5px;
+    }
+    #header .header--general .header--general__block .block .head2 .hed a {
+        margin: 0 10px;
+    }
+    #header .header--general .header--general__block .head3 .hero h1 {
+        margin: 5px 5px;
+        font-size: 16px;
+    }
+    #footer .footer--general .footer--general__block .text2 h1 {
+        margin-left: -20px;
+    }
+    #footer .footer--general .footer--general__block .text3 {
+        margin-left: 50px;
+    }
+    #footer .footer--general .footer--general__block .text3 a {
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+
+}
+@media(max-width: 992px)  {
+    #header .header--general .header--general__block .head3 .hero h1 {
+        margin: 1px 4px;
+        font-size: 16px;
+    }
+}
+@media(max-width: 768px) {
+    #header .header--general .header--general__block .block .head2 .hed {
+        display: none;
+    }
+
+    #header .header--general .header--general__block .block .head2 .graff {
+        display: none;
+    }
+
+    #header .header--general .header--general__block .block .head {
+        margin-left: -30px;
+    }
+
+    #header .header--general .header--general__block .block .head a {
+        margin: 10px 5px;
+    }
+
+    #header .header--general .header--general__block .block .head {
+        flex-direction: column;
+    }
+
+    #header .header--general .header--general__block .block {
+        justify-content: space-evenly;
+        margin-left: -100px;
+    }
+
+    #header .header--general .header--general__block .head3 .hero h1 {
+        margin: 1px 3px;
+        font-size: 12px;
+    }
+
+    #header .header--general .header--general__block .head4 .dondrakon h1 {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    #header .header--general .header--general__block .head4 .dondrakon p {
+        width: 300px;
+        font-size: 15px;
+    }
+
+    #header .header--general .header--general__block .head4 .dondrakon button {
+        font-size: 15px;
+    }
+
+    .swiper-slide {
+        width: 591px;
+    }
+
+    #hero .hero--general .hero--general__block .don-menu .menu .menu1 {
+        margin-left: -80px;
+    }
+
+    #hero .hero--general .hero--general__block .don-menu .menu .menu1 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #hero .hero--general .hero--general__block .don-menu .menu .menu1 button {
+        width: 205px;
+        height: 100px;
+    }
+
+    #hero .hero--general .hero--general__block .don-menu .menu .menu1 .food {
+        margin-left: 100px;
+        padding-top: 205px;
+    }
+
+    #hero .hero--general .hero--general__block .menu2 .menu22 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #hero .hero--general .hero--general__block .menu2 .menu22 .food2 button {
+        width: 205px;
+        height: 100px;
+    }
+
+    #hero .hero--general .hero--general__block .menu2 .menu22 .food2 {
+        margin-left: 100px;
+        padding-top: 205px;
+    }
+    #hero .hero--general .hero--general__block .menu2 {
+        margin-left: -120px;
+    }
+    #footer .footer--general .footer--general__block .text h1 {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    #footer .footer--general .footer--general__block .text3 {
+        margin-left: 15px;
+        flex-direction: column;
+    }
+    #footer .footer--general .footer--general__block .text2 h1 {
+        margin-left: -50px;
+    }
+    #footer .footer--general .footer--general__block .text {
+        flex-direction: column;
+        padding-top: 20px;
+        margin-left: -5px;
+    }
+
+}
+@media(max-width: 576px)  {
+    #hero .hero--general .hero--general__block .don-menu .menu .menu1 {
+        margin-left: -85px;
+    }
+    #hero .hero--general .hero--general__block .don-menu .menu .menu1 img {
+        width: 170px;
+        height: 180px;
+    }
+    #header .header--general .header--general__block .head3 .hero h1 {
+        margin: 1px 1px;
+        font-size: 9px;
+    }
+    #hero .hero--general .hero--general__block .don-menu .menu .menu1 button {
+        width: 175px;
+        height: 90px;
+    }
+    #hero .hero--general .hero--general__block .don-menu .menu .menu1 .food {
+        margin-left: 100px;
+        padding-top: 185px;
+    }
+    a {
+        font-size: 15px;
+    }
+    #hero .hero--general .hero--general__block .menu2 .menu22 img {
+        width: 170px;
+        height: 180px;
+    }
+    #hero .hero--general .hero--general__block .menu2 .menu22 .food2 button {
+        width: 185px;
+        height: 90px;
+    }
+    #hero .hero--general .hero--general__block .menu2 .menu22 .food2 {
+        margin-left: 100px;
+        padding-top: 175px;
+    }
+    #hero .hero--general .hero--general__block .menu2 .menu22 .food2 {
+        margin-left: 100px;
+        padding-top: 185px;
+    }
+    #footer .footer--general .footer--general__block img {
+        margin-left: -20px;
+    }
+}
+@media(max-width: 450px) {
+    #header .header--general .header--general__block .block .head {
+        flex-direction: column;
+        margin-left: 15px;
+        align-items: start;
+    }
+    #header .header--general .header--general__block .head4 {
+        flex-direction: column;
+    }
+    .swiper {
+        width: 240px;
+        height: 130px;
+        padding: 10px 0;
+    }
+    #header .header--general .header--general__block .block .head a {
+        margin: 1px 5px;
+    }
+    #header .header--general .header--general__block .head3 .hero .menu-one {
+        display: flex;
+        flex-direction: column;
+    }
+    #header .header--general .header--general__block .head3 .hero .menu-two {
+        display: flex;
+        flex-direction: column;
+    }
+    #header .header--general .header--general__block .head3 {
+        padding-top: 180px;
+    }
+    #header .header--general .header--general__block .head3 .hero h1 {
+         margin: 1px 40px;
+         font-size: 11px;
+     }
+    #header .header--general .header--general__block .head3 .hero .dot {
+        display: none;
+    }
+    #header .header--general .header--general__block .head3 .hero {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background: none;
+        border-radius: 15px;
+        animation: nio 2s alternate;
+    }
+    #header .header--general .header--general__block .head3 .hero .menu-one {
+        background: darkorange;
+        border-radius: 10px;
+    }
+    #header .header--general .header--general__block .head3 .hero .menu-two {
+        background: darkorange;
+        border-radius: 0 10px 10px 0;
+        margin-left: -20px;
+    }
+    #header .header--general .header--general__block .head3 {
+        margin-left: 20px;
+    }
+    #header .header--general .header--general__block .head4 .dondrakon h1 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    #header .header--general .header--general__block .head4 .dondrakon p {
+        width: 200px;
+        font-size: 12px;
+    }
+    #header .header--general .header--general__block .head4 .dondrakon button {
+        font-size: 10px;
+    }
+    .swiper-slide {
+        font-size: 15px;
+        width: 175px;
+        padding-top: 10px;
+        margin-left: 20px;
+    }
+    #hero .hero--general {
+        padding-top: 59px;
+    }
+    #hero .hero--general .hero--general__block .don-menu {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    #hero .hero--general .hero--general__block .don-menu .menu .menu1 {
+        margin: 15px 0;
+    }
+    #hero .hero--general .hero--general__block .don-menu {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-left: 1px;
+    }
+    #hero .hero--general .hero--general__block .don-menu .menu .menu1 img {
+        width: 180px;
+        height: 125px;
+    }
+    #hero .hero--general .hero--general__block .don-menu .menu .menu1 button {
+        width: 185px;
+        height: 60px;
+    }
+    #hero .hero--general .hero--general__block .don-menu .menu .menu1 .food {
+        margin-left: 100px;
+        padding-top: 130px;
+    }
+    a {
+        font-size: 12px;
+    }
+    #hero .hero--general .hero--general__block .menu2 .menu22 img {
+        width: 150px;
+        height: 140px;
+    }
+    #hero .hero--general .hero--general__block .menu2 {
+        margin-left: -70px;
+    }
+    #hero .hero--general .hero--general__block .menu2 .menu22 .food2 button {
+        width: 156px;
+        height: 55px;
+    }
+    #hero .hero--general .hero--general__block .menu2 .menu22 .food2 {
+        margin-left: 100px;
+        padding-top: 145px;
+    }
+    #hero .hero--general .hero--general__block .menu2 {
+        margin: 1px 0;
+    }
+    #footer .footer--general .footer--general__block {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    #footer .footer--general .footer--general__block .text h1 {
+        padding-bottom: 30px;
+    }
+    #footer .footer--general .footer--general__block .text2 h1 {
+        padding-bottom: 30px;
+    }
+    #footer .footer--general .footer--general__block .text3 a {
+        margin: 5px 5px;
+    }
+    #hero .hero--general .hero--general__block .menu2 {
+        margin-left: -110px;
+    }
+
+}
+@media(max-width: 400px)  {
+    #header .header--general .header--general__block .block .head {
+        flex-direction: column;
+        margin-left: 35px;
+        align-items: start;
+    }
+    #hero .hero--general {
+        padding-top: 31px;
+    }
+    #header .header--general .header--general__block .head4 {
+        flex-direction: column;
+    }
+    .swiper {
+        width: 240px;
+        height: 130px;
+        padding: 10px 0;
+    }
+    #header .header--general .header--general__block .head3 .hero h1 {
+        margin: 1px 30px;
+        font-size: 11px;
+    }
+    a {
+        font-size: 12px;
+        text-align: start;
+    }
+    #hero .hero--general .hero--general__block .menu2 {
+        display: flex;
+        margin:0 20px;
+    }
+    #hero .hero--general .hero--general__block .menu2 .menu22 .food2 {
+        margin-left: 89px;
+        padding-top: 145px;
+    }
+    #hero .hero--general .hero--general__block .menu2 .menu22 img {
+        width: 130px;
+        height: 110px;
+    }
+    #hero .hero--general .hero--general__block .menu2 .menu22 .food2 button {
+        width: 135px;
+        height: 55px;
+    }
+    #hero .hero--general .hero--general__block .menu2 .menu22 .food2 {
+        margin-left: 100px;
+        padding-top: 115px;
+    }
+    #hero .hero--general .hero--general__block .menu2 {
+        margin-left: -80px;
+    }
+
+}
+@media(max-width: 376px)  {
+    #header .header--general .header--general__block .head4 {
+        flex-direction: column;
+    }
+    .swiper {
+        width: 240px;
+        height: 130px;
+        padding: 10px 0;
+    }
+    #header .header--general .header--general__block .head4 .dondrakon button {
+        font-size: 15px;
+    }
+    #header .header--general .header--general__block .block .head {
+        padding-top: 5px;
+    }
+    #hero .hero--general .hero--general__block .don-menu {
+        margin-left: -30px;
+    }
+
+
+}
+@media(max-width: 320px)  {
+    #header .header--general .header--general__block .block .head {
+        margin-left: 45px;
+    }
+    #header .header--general .header--general__block .head3 .hero h1 {
+        font-size: 10px;
+    }
+    #hero .hero--general {
+        padding-top: 16px;
+    }
+    #hero .hero--general .hero--general__block .don-menu {
+        margin-left: -60px;
+    }
+    #hero .hero--general .hero--general__block .menu2 .menu22 {
+        margin: 0 1px;
+    }
+    #hero .hero--general .hero--general__block .menu2 .menu22 img {
+        width: 100px;
+        height: 110px;
+    }
+    #hero .hero--general .hero--general__block .menu2 .menu22 .food2 button {
+        width: 106px;
+        height: 45px;
+    }
+    #hero .hero--general .hero--general__block .menu2 .menu22 {
+        margin: 0 1px;
+        padding-bottom: 20px;
+    }
+}

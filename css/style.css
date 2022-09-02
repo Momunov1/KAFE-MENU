@@ -1,0 +1,476 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 740px;
+  height: 430px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding-top: 80px;
+  margin-left: 30px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.swiper-button-next {
+  color: #FF7A00;
+  padding-top: 50px;
+}
+
+.swiper-button-prev {
+  color: #FF7A00;
+  padding-top: 50px;
+}
+
+a {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  right: 0;
+}
+
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+  transition-duration: 0.25s;
+}
+
+.menu__btn > span::before {
+  content: "";
+  top: -8px;
+}
+
+.menu__btn > span::after {
+  content: "";
+  top: 8px;
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #FF891C;
+  box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.25s;
+}
+
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: 0.25s;
+}
+
+.menu__item:hover {
+  background-color: #FFFFFF;
+}
+
+#header .header--general img {
+  position: absolute;
+  margin-left: -150px;
+  z-index: -99;
+}
+#header .header--general .header--general__block .block {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  animation: ani 2s alternate;
+}
+@keyframes ani {
+  0% {
+    transform: translateY(-1400px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+#header .header--general .header--general__block .block .head {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#header .header--general .header--general__block .block .head a {
+  margin: 25px 15px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+#header .header--general .header--general__block .block .head a:hover {
+  color: red;
+}
+#header .header--general .header--general__block .block .head-img {
+  color: #FFFFFF;
+}
+#header .header--general .header--general__block .block .head2 {
+  padding-top: 26px;
+}
+#header .header--general .header--general__block .block .head2 a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+#header .header--general .header--general__block .block .head2 .hed {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#header .header--general .header--general__block .block .head2 .hed .zakaz {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#header .header--general .header--general__block .block .head2 .hed .zakaz a {
+  color: #FF7A00;
+}
+#header .header--general .header--general__block .block .head2 .hed .zakaz a p {
+  color: #FFFFFF;
+  margin-left: -20px;
+  transition: 0.4s;
+}
+#header .header--general .header--general__block .block .head2 .hed .zakaz a p:hover {
+  transform: scale(0.9);
+  color: #FF7A00;
+}
+#header .header--general .header--general__block .block .head2 .hed a {
+  margin: 0 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+#header .header--general .header--general__block .block .head2 .graff {
+  padding-top: 10px;
+}
+#header .header--general .header--general__block .head3 {
+  padding-top: 210px;
+}
+#header .header--general .header--general__block .head3 .hero {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #FF7A00;
+  border-radius: 15px;
+  animation: nio 2s alternate;
+}
+#header .header--general .header--general__block .head3 .hero .menu-one {
+  display: flex;
+}
+#header .header--general .header--general__block .head3 .hero .menu-two {
+  display: flex;
+}
+@keyframes nio {
+  0% {
+    transform: translateY(-1400px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+#header .header--general .header--general__block .head3 .hero h1 {
+  margin: 5px 20px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+  padding-top: 5px;
+}
+#header .header--general .header--general__block .head3 .hero h1:hover {
+  color: blue;
+}
+#header .header--general .header--general__block .head3 .hero .dot {
+  width: 10px;
+  height: 10px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  transform: rotate(-180deg);
+}
+#header .header--general .header--general__block .head4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header--general .header--general__block .head4 .dondrakon {
+  animation: don 2s alternate;
+}
+@keyframes don {
+  0% {
+    transform: translateX(1400px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+#header .header--general .header--general__block .head4 .dondrakon h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+#header .header--general .header--general__block .head4 .dondrakon p {
+  width: 450px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding-bottom: 24px;
+}
+#header .header--general .header--general__block .head4 .dondrakon button {
+  padding: 15px 30px;
+  background: #FF7A00;
+  box-shadow: 0 4px 20px #FF7A00;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  border: none;
+}
+#header .header--general .header--general__block .head4 .dondrakon button:hover {
+  transform: scale(1.1);
+}
+#header .header--general .header--general__block .head4 .swiper-wrapper {
+  animation: swi 2s alternate;
+}
+@keyframes swi {
+  0% {
+    transform: translateX(-1400px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#hero {
+  background: url("./img/s2-1 2.svg") no-repeat center/cover;
+  width: 100%;
+}
+#hero .hero--general {
+  padding-top: 134px;
+}
+#hero .hero--general img {
+  position: absolute;
+  z-index: -99;
+  margin-left: -155px;
+}
+#hero .hero--general .hero--general__block .don-menu {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+}
+#hero .hero--general .hero--general__block .don-menu .menu {
+  flex-direction: column;
+}
+#hero .hero--general .hero--general__block .don-menu .menu .menu1 {
+  margin: 91px 0;
+}
+#hero .hero--general .hero--general__block .don-menu .menu .menu1 img {
+  width: 280px;
+  height: 241px;
+  background: #FFFFFF;
+  border: 3px solid #FF7A00;
+  box-shadow: 0 4px 20px #FF891C;
+  border-radius: 20px 20px 0 0;
+  margin-left: 100px;
+}
+#hero .hero--general .hero--general__block .don-menu .menu .menu1 button {
+  width: 286px;
+  height: 115px;
+  border: 3px solid #FF7A00;
+  background: transparent;
+  filter: drop-shadow(0px 4px 5px #FF7A00);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+#hero .hero--general .hero--general__block .don-menu .menu .menu1 button:hover {
+  background: #FF7A00;
+}
+#hero .hero--general .hero--general__block .don-menu .menu .menu1 .food {
+  margin-left: 100px;
+  padding-top: 245px;
+}
+#hero .hero--general .hero--general__block .menu2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 91px 0;
+}
+#hero .hero--general .hero--general__block .menu2 .menu22 {
+  margin: 0 20px;
+}
+#hero .hero--general .hero--general__block .menu2 .menu22 img {
+  width: 280px;
+  height: 241px;
+  background: #FFFFFF;
+  border: 3px solid #FF7A00;
+  box-shadow: 0 4px 20px #FF891C;
+  border-radius: 20px 20px 0 0;
+  margin-left: 100px;
+}
+#hero .hero--general .hero--general__block .menu2 .menu22 .food2 {
+  margin-left: 100px;
+  padding-top: 245px;
+}
+#hero .hero--general .hero--general__block .menu2 .menu22 .food2 button {
+  width: 286px;
+  height: 115px;
+  border: 3px solid #FF7A00;
+  background: transparent;
+  filter: drop-shadow(0px 4px 5px #FF7A00);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+#hero .hero--general .hero--general__block .menu2 .menu22 .food2 button:hover {
+  background: #FF7A00;
+}
+
+#footer {
+  background: rgba(255, 137, 28, 0.8901960784);
+}
+#footer .footer--general .footer--general__block {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#footer .footer--general .footer--general__block img {
+  margin-left: -70px;
+}
+#footer .footer--general .footer--general__block .text {
+  flex-direction: column;
+  padding-top: 20px;
+  margin-left: 50px;
+}
+#footer .footer--general .footer--general__block .text h1 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  color: #E5E5E5;
+  padding-top: 15px;
+}
+#footer .footer--general .footer--general__block .text2 {
+  margin-left: 60px;
+}
+#footer .footer--general .footer--general__block .text2 h1 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  color: #E5E5E5;
+}
+#footer .footer--general .footer--general__block .text3 {
+  display: flex;
+  margin-left: 100px;
+}
+#footer .footer--general .footer--general__block .text3 a {
+  margin: 0 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #E5E5E5;
+}
+#footer .footer--general .footer--general__block .text3 a:hover {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

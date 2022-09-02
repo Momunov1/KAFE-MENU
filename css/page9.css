@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+#header{
+    background: url("http://localhost:63342/dondrakon/img/eda-bednyakov%201%20(1).svg")no-repeat center/cover;
+    width: 100%;
+}
+.header-fon img{
+    width: 1588px;
+    height: 535px;
+    position: absolute;
+    z-index: -99;
+    margin-left: -100px;
+}
+.header1{
+    display:flex;
+}
+.header1 p{
+    margin: 26px 10px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.header1 p:hover{
+    color:red;
+}
+.header2{
+    margin: 26px 0;
+    display: flex;
+}
+.header2 p{
+    margin: 0 15px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.header2-block{
+    display: flex;
+}
+.header2-block a{
+    margin: 0 5px;
+    color: #FF7A00;
+}
+.header2-block p:hover{
+    color: red;
+}
+.header-block{
+    display: flex;
+    text-align: center;
+    padding-bottom: 45px;
+}
+.header-title{
+    width: 1430px;
+    height: 42px;
+    background: #FF891C;
+    border-radius: 10px;
+    display: flex;
+    animation: brt 2s alternate;
+}
+@keyframes brt {
+    0%{
+        transform: translateX(-1400px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.header-title h1{
+    margin: 10px 5px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    transition: .4s;
+
+}
+.header-title h1:hover{
+    color: blue;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.header-title1{
+    padding-bottom: 235px;
+}
+.header-block{
+    animation: ani 2s alternate;
+}
+@keyframes ani {
+    0%{
+        transform: translateY(-1400px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+#hero{
+    background: url("http://localhost:63342/dondrakon/img/2022-08-31_22-35-06.png")no-repeat center/cover;
+    width: 100%;
+}
+.hero-btn{
+    padding-top: 50px;
+    margin-left: 50px;
+    animation: hbp 2s alternate ;
+}
+@keyframes hbp {
+    0%{
+        transform: translateX(1400px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.hero-btn button{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 208px;
+    height: 45px;
+    background: #FF7A00;
+    border-radius: 20px;
+    border: none;
+    transition: .4s;
+}
+.hero-btn button:hover{
+    transform: scale(1.1);
+}
+.obed{
+    width: 281px;
+    height: 432px;
+    background: #FFFFFF;
+    border: 2px solid #FF891C;
+    box-shadow: 0 4px 20px #000000;
+    border-radius: 15px;
+    margin: 117px 100px;
+    transition: .4s;
+
+}
+.obed:hover{
+    transform: scale(1.1);
+}
+.obed img{
+    width: 278px;
+    height: 209px;
+    padding-bottom: 15px;
+
+}
+.menu-text h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FF7A00;
+    padding-bottom: 15px;
+    margin-left: 16px;
+}
+.menu-text p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    padding-bottom: 20px;
+    margin-left: 16px;
+}
+.sena h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FF7A00;
+    margin-left: 16px;
+}
+.sena{
+    display: flex;
+
+}
+.sena button{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 92px;
+    margin: 0 40px;
+    height: 29px;
+    background: #FF7A00;
+    border-radius: 15px;
+    border: none;
+    transition: .4s;
+}
+.sena button:hover{
+    transform: scale(1.1);
+    background: #FFFFFF;
+    color: #FF7A00;
+}
+.hero-content{
+    display: flex;
+}
+.pizza h1 {
+    color: blue;
+}

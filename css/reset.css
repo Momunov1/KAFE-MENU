@@ -1,0 +1,13 @@
+
+
+
+@keyframes ani {
+    0%{
+        transform: translateY(-1400px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/*# sourceMappingURL=reset.css.map */
